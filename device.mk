@@ -32,6 +32,10 @@ include build/make/target/product/iorap_large_memory_config.mk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Properties
+-include $(LOCAL_PATH)/product_prop.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
