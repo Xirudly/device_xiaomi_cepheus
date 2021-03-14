@@ -172,6 +172,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1
 
 # Fingerprint
+EXTRA_FOD_ANIMATIONS := true
+
 PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.cepheus
 
