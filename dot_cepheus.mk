@@ -27,6 +27,9 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Device identifier
 PRODUCT_NAME := dot_cepheus
 PRODUCT_DEVICE := cepheus
