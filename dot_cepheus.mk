@@ -27,6 +27,12 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur 
+TARGET_SUPPORTS_BLUR := true
+
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
