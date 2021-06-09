@@ -36,6 +36,9 @@ TARGET_SUPPORTS_BLUR := true
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
+# Gapps
+WITH_GAPPS := true
+
 # Device identifier
 PRODUCT_NAME := dot_cepheus
 PRODUCT_DEVICE := cepheus
