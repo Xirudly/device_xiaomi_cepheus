@@ -39,6 +39,9 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Gapps
 WITH_GAPPS := true
 
+# Maintainer
+DEVICE_MAINTAINER := Xirudly
+
 # Device identifier
 PRODUCT_NAME := dot_cepheus
 PRODUCT_DEVICE := cepheus
