@@ -372,6 +372,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Prebuilt GcamGO
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
